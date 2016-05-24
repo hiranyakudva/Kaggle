@@ -7,7 +7,7 @@ import scikits.learn
 #********************** The training set ********************************
 
 #Read train data
-titanic=pandas.read_csv("C:\Users\Hiranya\Downloads\python/titanic/train.csv")
+titanic=pandas.read_csv("train.csv")
 #Print first 5 rows of data
 print(titanic.head(5))
 #Print high level descriptors of data
@@ -74,7 +74,7 @@ print(scores.mean())
 
 #************************ The test set **********************************
 
-titanic_test = pandas.read_csv("C:\Users\Hiranya\Downloads\python/titanic/test.csv")
+titanic_test = pandas.read_csv("test.csv")
 #Process titanic_test the same way as titanic
 titanic_test["Age"]=titanic_test["Age"].fillna(titanic["Age"].median())
 titanic_test.loc[titanic_test["Sex"]=="male","Sex"]=0
