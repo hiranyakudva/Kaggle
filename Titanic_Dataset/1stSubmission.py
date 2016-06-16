@@ -31,6 +31,7 @@ print(titanic["Embarked"].unique())
 #Replace missing values of Embarked with "S"; because that is the most
 #common embarkation port
 titanic["Embarked"]=titanic["Embarked"].fillna("S")
+
 #Assign 0 to S, 1 to C, 2 to Q
 titanic.loc[titanic["Embarked"]=="S", "Embarked"]=0
 titanic.loc[titanic["Embarked"]=="C", "Embarked"]=1
