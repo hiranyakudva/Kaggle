@@ -7,3 +7,5 @@ Refer https://www.dataquest.io/mission/74/getting-started-with-kaggle/ for tutor
 
 2ndSubmission.py shows how to use random forest classifiers, gradient boosting classifier and ensembling to improve accuracy.
 Refer https://www.dataquest.io/mission/75/improving-your-submission for tutorial.
+
+LogisticRegression.R contains code for fitting a logistic regression model on the dataset in R. For tutorial refer https://www.r-bloggers.com/how-to-perform-a-logistic-regression-in-r/
