@@ -1,2 +1,2 @@
-# Kaggle-Submissions
-Contains codes for Kaggle competitions
+# Kaggle
+Contains codes for Kaggle competitions and datasets
